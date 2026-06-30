@@ -12,12 +12,12 @@ escalation management.
 - Responsive web chat interface
 
 ## Tech Stack
-Python, LangGraph, LangChain, Claude (Anthropic), Flask
+Python, LangGraph, LangChain, Groq, Flask
 
 ## Setup
 \`\`\`bash
 pip install -r requirements.txt
-# Add your ANTHROPIC_API_KEY to a .env file
+# Add your Groq_API_KEY to a .env file
 python main.py
 \`\`\`
 
