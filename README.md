@@ -1,2 +1,23 @@
-# Customer-Support-Agent
-Built an AI customer support agent using LangGraph that autonomously handles order tracking, FAQ resolution, product lookups, and escalations through dynamic tool selection (ReAct pattern). The agent maintains persistent multi-turn memory via thread-based checkpointing, enabling context-aware conversations without repeated customer inpt 
+# Zara — AI Customer Support Agent
+
+An AI-powered customer support chatbot built with LangGraph and Claude that 
+autonomously handles order tracking, FAQ resolution, product lookups, and 
+escalation management.
+
+## Features
+- Dynamic tool selection using ReAct pattern
+- Persistent multi-turn conversation memory
+- Order tracking, FAQ search, product lookup, human escalation tools
+- Flask REST API backend
+- Responsive web chat interface
+
+## Tech Stack
+Python, LangGraph, LangChain, Claude (Anthropic), Flask
+
+## Setup
+\`\`\`bash
+pip install -r requirements.txt
+# Add your ANTHROPIC_API_KEY to a .env file
+python main.py
+\`\`\`
+
