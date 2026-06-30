@@ -1,0 +1,7 @@
+anthropic
+langchain
+langchain-anthropic
+langchain-core
+langgraph
+flask
+python-dotenv
